@@ -1,0 +1,82 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<title>CityCare Plus Hospital</title> 
+<link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+<header> 
+<h1> CityCare Plus</h1> 
+<p>Smart Healthcare for a Healthy Life</p> 
+</header> 
+<nav> 
+<a href="#home">Home</a> 
+<a href="#services">Services</a> 
+<a href="#doctors">Doctors</a> 
+<a href="#contact">Contact</a> 
+</nav> 
+<section id="home" class="glass"> 
+<h2>Welcome</h2> 
+<p> 
+CityCare Plus Hospital delivers next-generation healthcare 
+using modern technology, expert doctors, and compassionate care. 
+</p> 
+<button onclick="book()">Book Appointment</button> 
+</section> 
+<section id="services"> 
+<h2>Our Services</h2> 
+<div class="cards"> 
+<div class="card"> Emergency Care</div> 
+<div class="card"> Cardiology</div> 
+<div class="card"> Neurology</div> 
+<div class="card"> Orthopedics</div> 
+<div class="card"> Diagnostics</div> 
+<div class="card"> Pharmacy</div> 
+</div> 
+</section> 
+<section id="doctors" class="glass"> 
+<h2>Our Specialists</h2> 
+<table> 
+<tr> 
+<th>Name</th> 
+<th>Specialization</th> 
+<th>Experience</th> 
+</tr> 
+<tr> 
+<td>Dr. A. Kumar</td> 
+<td>Cardiologist</td> 
+<td>15 Years</td> 
+</tr> 
+<tr> 
+<td>Dr. S. Priya</td> 
+<td>Neurologist</td> 
+<td>12 Years</td> 
+</tr> 
+<tr> 
+<td>Dr. R. Mehta</td> 
+<td>Orthopedic</td> 
+<td>10 Years</td> 
+</tr> 
+</table> 
+</section> 
+<section id="contact"> 
+<h2>Contact & Appointment</h2> 
+<form onsubmit="return validate()"> 
+<input type="text" id="name" placeholder="Your Name"> 
+<input type="text" id="phone" placeholder="Phone Number"> 
+<select> 
+<option>Select Department</option> 
+<option>Cardiology</option> 
+<option>Neurology</option> 
+<option>Orthopedics</option> 
+</select> 
+<button type="submit">Submit</button> 
+</form> 
+</section> 
+<footer> 
+Designed by Student | CityCare Plus Hospital 
+</footer> 
+<script src="script.js"></script> 
+</body> 
+</html> 
